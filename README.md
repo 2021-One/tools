@@ -9,7 +9,8 @@
 ## 一键命令 One click command
 
 ```bash
-apt-get update --fix-missing && apt-get upgrade -y && apt-get install sudo curl -y && curl -Ss https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/vps.sh | sudo bash
+apt-get update --fix-missing && apt-get upgrade -y && apt-get install sudo curl -y && curl -Ss https://raw.githubusercontent.com/2021-One/vpstoolbox/master/vps.sh | sudo bash
+
 ```
 
 > 仅推荐 **Debian10/11** 系统。
