@@ -291,7 +291,7 @@ fi
 cat /etc/apt/sources.list | grep aliyun &> /dev/null
 
 if [[ $? == 0 ]] || [[ -d /usr/local/aegis ]]; then
-curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/uninstall-aegis.sh
+curl -LO https://raw.githubusercontent.com/2021-One/tools/master/install/uninstall-aegis.sh
 source uninstall-aegis.sh
 uninstall_aegis
 fi
