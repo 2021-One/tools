@@ -291,7 +291,7 @@ fi
 cat /etc/apt/sources.list | grep aliyun &> /dev/null
 
 if [[ $? == 0 ]] || [[ -d /usr/local/aegis ]]; then
-curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/uninstall-aegis.sh
+curl -LO https://raw.githubusercontent.com//vpstoolbox/master/install/uninstall-aegis.sh
 source uninstall-aegis.sh
 uninstall_aegis
 fi
@@ -366,154 +366,154 @@ install_moudles(){
   fi
   ## Install PHP
   if [[ ${install_php} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/php.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/php.sh
   source php.sh
   install_php
   rm php.sh
   fi
   ## Install Nodejs
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/nodejs.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/nodejs.sh
   source nodejs.sh
   install_nodejs
   rm nodejs.sh
   ## Install Mariadb
   if [[ ${install_mariadb} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/mariadb.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/mariadb.sh
   source mariadb.sh
   install_mariadb
   rm mariadb.sh
   fi
   ## Install Redis
   if [[ ${install_redis} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/redis.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/redis.sh
   source redis.sh
   install_redis
   rm redis.sh
   fi
   ## Install mongodb
   if [[ ${install_mongodb} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/mongodb.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/mongodb.sh
   source mongodb.sh
   install_mongodb
   rm mongodb.sh
   fi
   ## Install Hexo
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/hexo.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/hexo.sh
   source hexo.sh
   install_hexo
   rm hexo.sh
   if [[ ${install_ss_rust} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/ss-rust.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/ss-rust.sh
   source ss-rust.sh
   install_ss_rust
   rm ss-rust.sh
   fi
   if [[ ${install_aria} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/aria2.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/aria2.sh
   source aria2.sh
   install_aria2
   rm aria2.sh
   fi
   if [[ ${install_jellyfin} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/jellyfin.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/jellyfin.sh
   source jellyfin.sh
   install_jellyfin
   rm jellyfin.sh
   fi
   if [[ ${install_dnscrypt} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/dnscrypt.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/dnscrypt.sh
   source dnscrypt.sh
   install_dnscrypt
   rm dnscrypt.sh
   fi
   if [[ ${install_fail2ban} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/fail2ban.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/fail2ban.sh
   source fail2ban.sh
   install_fail2ban
   rm fail2ban.sh
   fi
   if [[ ${install_filebrowser} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/filebrowser.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/filebrowser.sh
   source filebrowser.sh
   install_filebrowser
   rm filebrowser.sh
   fi
   if [[ ${install_mail} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/mail.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/mail.sh
   source mail.sh
   install_mail
   rm mail.sh
   fi
   if [[ ${install_nextcloud} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/nextcloud.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/nextcloud.sh
   source nextcloud.sh
   install_nextcloud
   rm nextcloud.sh
   fi
   if [[ ${install_qbt_o} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/qbt_origin.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/qbt_origin.sh
   source qbt_origin.sh
   install_qbt_o
   rm qbt_origin.sh
   fi
   if [[ ${install_qbt_e} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/qbt.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/qbt.sh
   source qbt.sh
   install_qbt_e
   rm qbt.sh
   fi
   if [[ ${install_rocketchat} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/rocketchat.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/rocketchat.sh
   source rocketchat.sh
   install_rocketchat
   rm rocketchat.sh
   fi
   if [[ ${install_rss} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/rss.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/rss.sh
   source rss.sh
   install_rss
   rm rss.sh
   fi
   if [[ ${install_speedtest} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/speedtest.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/speedtest.sh
   source speedtest.sh
   install_speedtest
   rm speedtest.sh
   fi
   if [[ ${install_tor} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/tor.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/tor.sh
   source tor.sh
   install_tor
   rm tor.sh
   fi
   if [[ ${install_tracker} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/tracker.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/tracker.sh
   source tracker.sh
   install_tracker
   rm tracker.sh
   fi
   if [[ ${install_rclone} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/rclone.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/rclone.sh
   source rclone.sh
   install_rclone
   rm rclone.sh
   fi
   if [[ ${install_typecho} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/typecho.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/typecho.sh
   source typecho.sh
   install_typecho
   fi
   if [[ ${install_onedrive} == 1 ]]; then
-  curl -Ss https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/rclone_config.sh | sudo bash
+  curl -Ss https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/rclone_config.sh | sudo bash
   fi
   if [[ ${install_netdata} == 1 ]]; then
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/netdata.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/netdata.sh
   source netdata.sh
   install_netdata
   rm netdata.sh
   fi
   ## Install Trojan-gfw
-  curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/trojan.sh
+  curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/trojan.sh
   source trojan.sh
   install_trojan
   rm trojan.sh
@@ -521,7 +521,7 @@ install_moudles(){
 
 ## 主菜单
 MasterMenu() {
-  Mainmenu=$(whiptail --clear --ok-button "选择完毕,下一步" --backtitle "Hi,欢迎使用VPSTOOLBOX。https://github.com/johnrosen1/vpstoolbox / https://t.me/vpstoolbox_chat。" --title "VPS ToolBox Menu" --menu --nocancel "Welcome to VPS Toolbox main menu,Please Choose an option 欢迎使用VPSTOOLBOX,请选择一个选项" 14 68 5 \
+  Mainmenu=$(whiptail --clear --ok-button "选择完毕,下一步" --backtitle "Hi,欢迎使用VPSTOOLBOX。https://github.com/2021-One/vpstoolbox / https://t.me/vpstoolbox_chat。" --title "VPS ToolBox Menu" --menu --nocancel "Welcome to VPS Toolbox main menu,Please Choose an option 欢迎使用VPSTOOLBOX,请选择一个选项" 14 68 5 \
   "Install_standard" "基础安裝(小白专用)" \
   "Install_extend" "高级安装(老手推荐)" \
   "Benchmark" "效能测试"\
@@ -534,34 +534,34 @@ MasterMenu() {
     install_initial
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
     ## 用户输入
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/userinput.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/userinput.sh
     source userinput.sh
     userinput_standard
     ## 检测证书是否已有
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/detectcert.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/detectcert.sh
     source detectcert.sh
     detectcert
     ## 开始安装
     TERM=ansi whiptail --title "开始安装" --infobox "安装开始,请不要按任何按键直到安装完成(Please do not press any button until the installation is completed)!" 7 68
     colorEcho ${INFO} "安装开始,请不要按任何按键直到安装完成(Please do not press any button until the installation is completed)!"
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/system-upgrade.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/system-upgrade.sh
     source system-upgrade.sh
     upgrade_system
     ## 基础软件安装
     install_base
     ## 开启防火墙
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/firewall.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/firewall.sh
     source firewall.sh
     openfirewall
     ## NGINX安装
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/nginx.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/nginx.sh
     source nginx.sh
     install_nginx
     ## 证书签发
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/issuecert.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/issuecert.sh
     source issuecert.sh
     ## HTTP证书签发
     if [[ ${httpissue} == 1 ]]; then
@@ -574,13 +574,13 @@ MasterMenu() {
     ## 具体软件安装
     install_moudles
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/nginx-config.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/nginx-config.sh
     source nginx-config.sh
     nginx_config
     clean_env
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
     ## 输出结果
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/output.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/output.sh
     source output.sh
     prase_output
     rm output.sh
@@ -592,33 +592,33 @@ MasterMenu() {
     install_initial
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
     ## 用户输入
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/userinput.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/userinput.sh
     source userinput.sh
     userinput_full
     ## 检测证书是否已有
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/detectcert.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/detectcert.sh
     source detectcert.sh
     detectcert
     ## 开始安装
     TERM=ansi whiptail --title "开始安装" --infobox "安装开始,请不要按任何按键直到安装完成(Please do not press any button until the installation is completed)!" 7 68
     colorEcho ${INFO} "安装开始,请不要按任何按键直到安装完成(Please do not press any button until the installation is completed)!"
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/system-upgrade.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/system-upgrade.sh
     source system-upgrade.sh
     upgrade_system
     ## 基础软件安装
     install_base
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
     ## 开启防火墙
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/firewall.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/firewall.sh
     source firewall.sh
     openfirewall
     ## NGINX安装
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/nginx.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/nginx.sh
     source nginx.sh
     install_nginx
     ## 证书签发
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/issuecert.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/issuecert.sh
     source issuecert.sh
     ## HTTP证书签发
     if [[ ${httpissue} == 1 ]]; then
@@ -631,7 +631,7 @@ MasterMenu() {
     ## 具体软件安装
     install_moudles
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/nginx-config.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/nginx-config.sh
     source nginx-config.sh
     nginx_config
     rm nginx-config.sh
@@ -655,7 +655,7 @@ MasterMenu() {
     fi
     ## 输出结果
     echo "nameserver 1.1.1.1" > /etc/resolv.conf
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/output.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/output.sh
     source output.sh
     prase_output
     rm output.sh
@@ -675,7 +675,7 @@ MasterMenu() {
     exit 0
     ;;
     Uninstall)
-    curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/uninstall.sh
+    curl -LO https://raw.githubusercontent.com/2021-One/vpstoolbox/master/install/uninstall.sh
     source uninstall.sh
     uninstall
     exit 0
