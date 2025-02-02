@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # VPSTOOLBOX
 
 # 一键安装Trojan-GFW代理,Hexo博客,Nextcloud等應用程式.
